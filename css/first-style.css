@@ -1,0 +1,184 @@
+body{
+height: 2000px
+}
+/*Section About*/
+.about{
+
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.about h1{
+	/*text-align: center;*/
+	color: #de3030;
+	font-weight: bold;
+}
+/*Section About*/
+
+
+/*Section Features*/
+.features{
+	background: #EEE;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.features h1{
+	margin-bottom: 30px;
+	color: #de3030;
+}
+.features .feat h4{
+	color: #333;
+}
+.features .feat span.glyphicon{
+	font-size: 30px;
+	color: #333;
+}
+
+/*Section Features*/
+
+
+/*Section Testimonials*/
+.testimonials{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.testimonials .carousel-indicators{
+	position: static;
+	width: 100%;
+	margin-left: auto;
+/*	padding-top: 20px*/
+
+}
+.testimonials .carousel-indicators li{
+	text-indent: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    overflow: hidden;
+    margin: 5px;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.testimonials .carousel-indicators .active {
+    background-color:none;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    border: 3px solid #f90e0e;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.testimonials span{
+	font-size: 18px;
+	color: #f90e0e
+}
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+}
+/*Testimonials*/
+
+
+
+/*Price Table*/
+
+.prices_table{
+	background: #EEE;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	/*padding:10px;*/
+}
+.prices_table h1{
+	margin-bottom: 25px;
+}
+.prices_table .prices_box{
+	background: #FFF;
+	border: 1px solid #DDD;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.prices_table .prices_box:hover span{
+	-webkit-transform:scale(1.1, 1.1) rotate(360deg);
+	-moz-transform:scale(1.1, 1.1) rotate(360deg);
+    -o-transform:scale(1.1, 1.1) rotate(360deg);
+   	transform:scale(1.1, 1.1) rotate(360deg);
+
+   	border: 1px solid #333;
+}
+.prices_table .prices_box span{
+	/*font-weight: bold;*/
+	display:inline-block;
+	font-size: 25px;
+	width: 65px;
+	height: 65px;
+	background-color: #EEE;
+	border-radius: 50%;
+	line-height: 65px;
+	-webkit-transition-duration:0.7s;
+	-moz-transition-duration:0.7s;
+	-o-transition-duration:0.7s;
+	transition-duration: 0.7s;
+	 
+}
+.prices_table .prices_box ul{
+	font-size: 18px;
+	line-height: 200%;
+
+}
+
+/*Price Table*/
+
+
+/*Our workers*/
+.our-workers{
+
+	background: url("../images/our_workers_background.jpg") no-repeat center center fixed;
+	min-height: 400px;
+	color: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.our-workers h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.our-workers img{
+	max-height: 120px;
+	min-width: 30px;
+	border-radius: 50%;
+
+}
+.our-workers .worker{
+	background: rgba(1,1,1,0.5);
+	min-height: 400px;
+}
+
+.our-workers .fa{
+	color: red;
+}
+
+/*Our workers*/
+
+/*Subscrible */
+.subscribe{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #EEE;
+}
+.subscribe .form-inline{
+	padding-top: 25px;
+}
+.subscribe .btn-success{
+	margin-left: -5px;
+	border-radius: 0;
+}
+.subscribe .form-control{
+	border-radius: 0;
+	width: 250px;
+}
+/*Subscribe*/

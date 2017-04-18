@@ -1,0 +1,15 @@
+---Navbar---
+//<nav>//
+- navbar-default > using default navbar
+- navbar-inverse > inverts color
+- navbar-fixed-top > nav sticks
+
+//<div class="container"/>//
+- class="container-fluid" > takes all screen
+- "container" > only the grid system (not all screen_
+
+//<div class="navbar-header">//
+contains brand name, span button for mobile.
+- <button></button> > span button for mobile
+- <a></a> > Brand name with link 
+- data-target > "the id of used div, div can be anywhere in the page"
